@@ -4,18 +4,39 @@
 /* Target the title element and apply the following styles: */
 
 #title {
-  background-color: blue;
-  color: #ff0062;
+  background-color: #d00027;
+  color: white;
   padding: 15px;
-  margin: 50px;
-
-  border-style: solid;  
-  border-color: #000000;
-  border-radius: 50px;
-
+  margin: 15px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 5px;
   font-family: 'Lobster', cursive;
-  font-size: 50px; 
+  font-size: 50px;
   text-align: center;
+
 }
 
+#content { 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  width: 70%
+  
 
+}
+
+button { 
+  background-color: #d00027;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #a4001e;
+}
